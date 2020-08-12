@@ -9,12 +9,12 @@ country: "USA"      # lowercase two-letter ISO country code such as "fr" (see ht
 language: "English"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "37.082580"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-76.380010"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "June 11-12, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "September 2-3, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: 2020-06-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2020-06-12        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2020-09-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2020-09-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Michelle Rodio"]
-helper: ["Elizabeth Gregory"]
+{% comment %} helper: ["Elizabeth Gregory"] {% endcomment %}
 email: ["michelle.e.rodio@nasa.gov"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
